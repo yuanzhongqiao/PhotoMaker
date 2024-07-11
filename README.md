@@ -1,88 +1,97 @@
-<p align="center">
-  <img src="https://photo-maker.github.io/assets/logo.png" height=100>
-
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/eba3b8018b99cd09c2aaf9f833d06696adb6f87a789b8424be674e76dcd4ffd3/68747470733a2f2f70686f746f2d6d616b65722e6769746875622e696f2f6173736574732f6c6f676f2e706e67"><img src="https://camo.githubusercontent.com/eba3b8018b99cd09c2aaf9f833d06696adb6f87a789b8424be674e76dcd4ffd3/68747470733a2f2f70686f746f2d6d616b65722e6769746875622e696f2f6173736574732f6c6f676f2e706e67" height="100" data-canonical-src="https://photo-maker.github.io/assets/logo.png" style="max-width: 100%;"></a>
 </p>
 
-<!-- ## <div align="center"><b>PhotoMaker</b></div> -->
-
-<div align="center">
-  
-## PhotoMaker: Customizing Realistic Human Photos via Stacked ID Embedding  [![Paper page](https://huggingface.co/datasets/huggingface/badges/resolve/main/paper-page-md-dark.svg)](https://huggingface.co/papers/2312.04461)
-[[Paper](https://huggingface.co/papers/2312.04461)] &emsp; [[Project Page](https://photo-maker.github.io)] &emsp; [[Model Card](https://huggingface.co/TencentARC/PhotoMaker)] <br>
-
-[[🤗 Demo (Realistic)](https://huggingface.co/spaces/TencentARC/PhotoMaker)] &emsp; [[🤗 Demo (Stylization)](https://huggingface.co/spaces/TencentARC/PhotoMaker-Style)] <br>
-
-[[Replicate Demo (Realistic)](https://replicate.com/jd7h/photomaker)] &emsp; [[Replicate Demo (Stylization)](https://replicate.com/yorickvp/photomaker-style)] <be>
-
-If the ID fidelity is not enough for you, please try our [stylization application](https://huggingface.co/spaces/TencentARC/PhotoMaker-Style), you may be pleasantly surprised.
+<div align="center" dir="auto">
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PhotoMaker：通过堆叠 ID 嵌入定制逼真的人体照片  </font></font><a href="https://huggingface.co/papers/2312.04461" rel="nofollow"><img src="https://camo.githubusercontent.com/55c919667f0bbfd3427ab1fe145dc192336c5bbe3c2597b678a7b253b8e6863a/68747470733a2f2f68756767696e67666163652e636f2f64617461736574732f68756767696e67666163652f6261646765732f7265736f6c76652f6d61696e2f70617065722d706167652d6d642d6461726b2e737667" alt="纸页" data-canonical-src="https://huggingface.co/datasets/huggingface/badges/resolve/main/paper-page-md-dark.svg" style="max-width: 100%;"></a></h2><a id="user-content-photomaker-customizing-realistic-human-photos-via-stacked-id-embedding--" class="anchor" aria-label="永久链接：PhotoMaker：通过堆叠 ID 嵌入定制逼真的人体照片  " href="#photomaker-customizing-realistic-human-photos-via-stacked-id-embedding--"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[</font></font><a href="https://huggingface.co/papers/2312.04461" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">] [</font></font><a href="https://photo-maker.github.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">] [</font></font><a href="https://huggingface.co/TencentARC/PhotoMaker" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模型卡</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">]</font></font><br></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[ </font></font><a href="https://huggingface.co/spaces/TencentARC/PhotoMaker" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤗 演示（逼真）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ] [ </font></font><a href="https://huggingface.co/spaces/TencentARC/PhotoMaker-Style" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤗 演示（风格化）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ]</font></font><br></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[</font></font><a href="https://replicate.com/jd7h/photomaker" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">复制演示（逼真）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ] [</font></font><a href="https://replicate.com/yorickvp/photomaker-style" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">复制演示（风格化）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ]</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您对 ID 保真度的要求还不够高，请尝试我们的</font></font><a href="https://huggingface.co/spaces/TencentARC/PhotoMaker-Style" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">风格化应用程序</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您可能会感到惊喜。</font></font></p>
 </div>
-
-
----
-Official implementation of **[PhotoMaker: Customizing Realistic Human Photos via Stacked ID Embedding](https://huggingface.co/papers/2312.04461)**.
-
-
-### 🌠  **Key Features:**
-
-1. Rapid customization **within seconds**, with no additional LoRA training.
-2. Ensures impressive ID fidelity, offering diversity, promising text controllability, and high-quality generation.
-3. Can serve as an **Adapter** to collaborate with other Base Models alongside LoRA modules in community.
-
----
-<a href="https://trendshift.io/repositories/7008" target="_blank" align=center><img src="https://trendshift.io/api/badge/repositories/7008" alt="TencentARC%2FPhotoMaker | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-
-❗❗ Note: If there are any PhotoMaker based resources and applications, please leave them in the [discussion](https://github.com/TencentARC/PhotoMaker/discussions/36) and we will list them in the [Related Resources](https://github.com/TencentARC/PhotoMaker?tab=readme-ov-file#related-resources) section in README file.
-Now we know the implementation of **Replicate**, **Windows**, **ComfyUI**, and **WebUI**. Thank you all! 
-
-<div align="center">
-
-![photomaker_demo_fast](https://github.com/TencentARC/PhotoMaker/assets/21050959/e72cbf4d-938f-417d-b308-55e76a4bc5c8)
+<hr>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PhotoMaker的官方实现</font></font><strong><a href="https://huggingface.co/papers/2312.04461" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：通过堆叠 ID 嵌入定制逼真的人体照片</font></font></a></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🌠  </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主要特点：</font></font></strong></h3><a id="user-content---key-features" class="anchor" aria-label="永久链接：🌠 主要特点：" href="#--key-features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">几秒钟内</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速定制</font><font style="vertical-align: inherit;">，无需额外的 LoRA 培训。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保令人印象深刻的 ID 保真度，提供多样性、保证文本可控性和高质量生成。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以作为</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适配器</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与社区中的其他基础模型以及 LoRA 模块协作。</font></font></li>
+</ol>
+<hr>
+<p dir="auto"><a href="https://trendshift.io/repositories/7008" align="center" rel="nofollow"><img src="https://camo.githubusercontent.com/848eb489e96e464e36d74c08fc07014b5f990199f68c628df72945286fca89e7/68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7265706f7369746f726965732f37303038" alt="腾讯ARC%2FPhotoMaker | Trendshift" style="width: 250px; height: 55px; max-width: 100%;" width="250" height="55" data-canonical-src="https://trendshift.io/api/badge/repositories/7008"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">❗❗ 注意：如果有任何基于 PhotoMaker 的资源和应用程序，请将它们留在讨论中</font></font><a href="https://github.com/TencentARC/PhotoMaker/discussions/36" data-hovercard-type="discussion" data-hovercard-url="/TencentARC/PhotoMaker/discussions/36/hovercard"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，我们会在 README 文件中的</font></font></a><font style="vertical-align: inherit;"></font><a href="https://github.com/TencentARC/PhotoMaker?tab=readme-ov-file#related-resources"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相关资源</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部分列出它们。现在我们知道了</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Replicate</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ComfyUI</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WebUI</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的实现</font><font style="vertical-align: inherit;">。谢谢大家！</font></font></p>
+<div align="center" dir="auto">
+<p dir="auto"><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/21050959/296657210-e72cbf4d-938f-417d-b308-55e76a4bc5c8.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA3MTE3MjYsIm5iZiI6MTcyMDcxMTQyNiwicGF0aCI6Ii8yMTA1MDk1OS8yOTY2NTcyMTAtZTcyY2JmNGQtOTM4Zi00MTdkLWIzMDgtNTVlNzZhNGJjNWM4LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzExVDE1MjM0NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI3MGY4Y2M2MTgzMzc2NTVmMjVjNTU4YjI5NGZiNjhjZGVmY2ZiZWViODA3NjZlNGJmNTg4OTBkOTk5MTc1YjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.1nrrn1BvfNJc5NQ6HiLFccFGwUkARmrXJfk9fghroRo" data-target="animated-image.originalLink"><img src="https://private-user-images.githubusercontent.com/21050959/296657210-e72cbf4d-938f-417d-b308-55e76a4bc5c8.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA3MTE3MjYsIm5iZiI6MTcyMDcxMTQyNiwicGF0aCI6Ii8yMTA1MDk1OS8yOTY2NTcyMTAtZTcyY2JmNGQtOTM4Zi00MTdkLWIzMDgtNTVlNzZhNGJjNWM4LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzExVDE1MjM0NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI3MGY4Y2M2MTgzMzc2NTVmMjVjNTU4YjI5NGZiNjhjZGVmY2ZiZWViODA3NjZlNGJmNTg4OTBkOTk5MTc1YjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.1nrrn1BvfNJc5NQ6HiLFccFGwUkARmrXJfk9fghroRo" alt="photomaker_demo_fast" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
+      <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
+        <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://private-user-images.githubusercontent.com/21050959/296657210-e72cbf4d-938f-417d-b308-55e76a4bc5c8.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA3MTE3MjYsIm5iZiI6MTcyMDcxMTQyNiwicGF0aCI6Ii8yMTA1MDk1OS8yOTY2NTcyMTAtZTcyY2JmNGQtOTM4Zi00MTdkLWIzMDgtNTVlNzZhNGJjNWM4LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzExVDE1MjM0NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI3MGY4Y2M2MTgzMzc2NTVmMjVjNTU4YjI5NGZiNjhjZGVmY2ZiZWViODA3NjZlNGJmNTg4OTBkOTk5MTc1YjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.1nrrn1BvfNJc5NQ6HiLFccFGwUkARmrXJfk9fghroRo" target="_blank">
+          
+        <span data-target="animated-image.imageContainer">
+            <img data-target="animated-image.replacedImage" alt="photomaker_demo_fast" class="AnimatedImagePlayer-animatedImage" src="https://private-user-images.githubusercontent.com/21050959/296657210-e72cbf4d-938f-417d-b308-55e76a4bc5c8.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA3MTE3MjYsIm5iZiI6MTcyMDcxMTQyNiwicGF0aCI6Ii8yMTA1MDk1OS8yOTY2NTcyMTAtZTcyY2JmNGQtOTM4Zi00MTdkLWIzMDgtNTVlNzZhNGJjNWM4LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzExVDE1MjM0NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI3MGY4Y2M2MTgzMzc2NTVmMjVjNTU4YjI5NGZiNjhjZGVmY2ZiZWViODA3NjZlNGJmNTg4OTBkOTk5MTc1YjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.1nrrn1BvfNJc5NQ6HiLFccFGwUkARmrXJfk9fghroRo" style="display: block; opacity: 1;">
+          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="640" height="480"></canvas></span></a>
+        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="播放 photomaker_demo_fast" hidden=""></button>
+        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
+          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="播放 photomaker_demo_fast">
+            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
+            </path></svg>
+            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
+              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
+            </svg>
+          </button>
+          <a data-target="animated-image.openButton" aria-label="在新窗口中打开" class="AnimatedImagePlayer-button" href="https://private-user-images.githubusercontent.com/21050959/296657210-e72cbf4d-938f-417d-b308-55e76a4bc5c8.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA3MTE3MjYsIm5iZiI6MTcyMDcxMTQyNiwicGF0aCI6Ii8yMTA1MDk1OS8yOTY2NTcyMTAtZTcyY2JmNGQtOTM4Zi00MTdkLWIzMDgtNTVlNzZhNGJjNWM4LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzExVDE1MjM0NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI3MGY4Y2M2MTgzMzc2NTVmMjVjNTU4YjI5NGZiNjhjZGVmY2ZiZWViODA3NjZlNGJmNTg4OTBkOTk5MTc1YjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.1nrrn1BvfNJc5NQ6HiLFccFGwUkARmrXJfk9fghroRo" target="_blank">
+            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
+            </svg>
+          </a>
+        </span>
+      </span></animated-image></p>
 </div>
-
-
-## 🚩 **New Features/Updates**
-- ✅ Jan. 20, 2024. An **important** note: For those GPUs that do not support bfloat16, please change [this line](https://github.com/TencentARC/PhotoMaker/blob/6ec44fc13909d64a65c635b9e3b6f238eb1de9fe/gradio_demo/app.py#L39) to `torch_dtype = torch.float16`, the speed will be **greatly improved** (1min/img (before) vs. 14s/img (after) on V100). The minimum GPU memory requirement for PhotoMaker is **11G** (Please refer to [this link](https://github.com/TencentARC/PhotoMaker/discussions/114) for saving GPU memory).
-- ✅ Jan. 15, 2024. We release PhotoMaker.
-
----
-
-## 🔥 **Examples**
-
-
-### Realistic generation 
-
-- [![Huggingface PhotoMaker](https://img.shields.io/static/v1?label=Demo&message=Huggingface%20Gradio&color=orange)](https://huggingface.co/spaces/TencentARC/PhotoMaker)
-- [**PhotoMaker notebook demo**](photomaker_demo.ipynb)
-
-<p align="center">
-  <img src="https://cdn-uploads.huggingface.co/production/uploads/6285a9133ab6642179158944/BYBZNyfmN4jBKBxxt4uxz.jpeg" height=450>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🚩</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新功能/更新</font></font></strong></h2><a id="user-content--new-featuresupdates" class="anchor" aria-label="永久链接：🚩 新功能/更新" href="#-new-featuresupdates"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅ 2024 年 1 月 20 日。</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重要</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提示：对于不支持 bfloat16 的 GPU，请将此</font></font><a href="https://github.com/TencentARC/PhotoMaker/blob/6ec44fc13909d64a65c635b9e3b6f238eb1de9fe/gradio_demo/app.py#L39"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">行</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更改为</font></font><code>torch_dtype = torch.float16</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，速度将</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大大提高</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（V100 上 1min/img（之前）vs. 14s/img（之后））。PhotoMaker 的最低 GPU 内存要求为</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">11G</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> （有关节省 GPU 内存的信息，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="https://github.com/TencentARC/PhotoMaker/discussions/114" data-hovercard-type="discussion" data-hovercard-url="/TencentARC/PhotoMaker/discussions/114/hovercard"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此链接）。</font></font></a><font style="vertical-align: inherit;"></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅ 2024 年 1 月 15 日。我们发布 PhotoMaker。</font></font></li>
+</ul>
+<hr>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔥</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font></font></strong></h2><a id="user-content--examples" class="anchor" aria-label="永久链接：🔥 示例" href="#-examples"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现实的一代</font></font></h3><a id="user-content-realistic-generation" class="anchor" aria-label="永久链接：现实的一代" href="#realistic-generation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://huggingface.co/spaces/TencentARC/PhotoMaker" rel="nofollow"><img src="https://camo.githubusercontent.com/a9c16a13733e83b438c9815b57914899661a774ccf3f228c3b102040f770957a/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d44656d6f266d6573736167653d48756767696e676661636525323047726164696f26636f6c6f723d6f72616e6765" alt="Huggingface 照片制作器" data-canonical-src="https://img.shields.io/static/v1?label=Demo&amp;message=Huggingface%20Gradio&amp;color=orange" style="max-width: 100%;"></a></li>
+<li><a href="/TencentARC/PhotoMaker/blob/main/photomaker_demo.ipynb"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PhotoMaker 笔记本演示</font></font></strong></a></li>
+</ul>
+<p align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/c004ae7f537e0fc3a13da99577b79a4f3e354412d1af5c07ee54d51961f9e572/68747470733a2f2f63646e2d75706c6f6164732e68756767696e67666163652e636f2f70726f64756374696f6e2f75706c6f6164732f3632383561393133336162363634323137393135383934342f4259425a4e79666d4e346a424b427878743475787a2e6a706567"><img src="https://camo.githubusercontent.com/c004ae7f537e0fc3a13da99577b79a4f3e354412d1af5c07ee54d51961f9e572/68747470733a2f2f63646e2d75706c6f6164732e68756767696e67666163652e636f2f70726f64756374696f6e2f75706c6f6164732f3632383561393133336162363634323137393135383934342f4259425a4e79666d4e346a424b427878743475787a2e6a706567" height="450" data-canonical-src="https://cdn-uploads.huggingface.co/production/uploads/6285a9133ab6642179158944/BYBZNyfmN4jBKBxxt4uxz.jpeg" style="max-width: 100%;"></a>
 </p>
-
-<p align="center">
-  <img src="https://cdn-uploads.huggingface.co/production/uploads/6285a9133ab6642179158944/9KYqoDxfbNVLzVKZzSzwo.jpeg" height=450>
+<p align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/77e45855163b9a5ded34b82de1c6dfa3c609a6e2fea7642a8ef2f3733d71bab6/68747470733a2f2f63646e2d75706c6f6164732e68756767696e67666163652e636f2f70726f64756374696f6e2f75706c6f6164732f3632383561393133336162363634323137393135383934342f394b59716f447866624e564c7a564b5a7a537a776f2e6a706567"><img src="https://camo.githubusercontent.com/77e45855163b9a5ded34b82de1c6dfa3c609a6e2fea7642a8ef2f3733d71bab6/68747470733a2f2f63646e2d75706c6f6164732e68756767696e67666163652e636f2f70726f64756374696f6e2f75706c6f6164732f3632383561393133336162363634323137393135383934342f394b59716f447866624e564c7a564b5a7a537a776f2e6a706567" height="450" data-canonical-src="https://cdn-uploads.huggingface.co/production/uploads/6285a9133ab6642179158944/9KYqoDxfbNVLzVKZzSzwo.jpeg" style="max-width: 100%;"></a>
 </p>
-
-### Stylization generation 
-
-Note: only change the base model and add the LoRA modules for better stylization
-
-- [![Huggingface PhotoMaker-Style](https://img.shields.io/static/v1?label=Demo&message=Huggingface%20Gradio&color=orange)](https://huggingface.co/spaces/TencentARC/PhotoMaker-Style)
-- [**PhotoMaker-Style notebook demo**](photomaker_style_demo.ipynb) 
-
-<p align="center">
-  <img src="https://cdn-uploads.huggingface.co/production/uploads/6285a9133ab6642179158944/du884lcjpqqjnJIxpATM2.jpeg" height=450>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">风格化生成</font></font></h3><a id="user-content-stylization-generation" class="anchor" aria-label="永久链接：风格化生成" href="#stylization-generation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：仅更改基础模型并添加 LoRA 模块以实现更好的风格化</font></font></p>
+<ul dir="auto">
+<li><a href="https://huggingface.co/spaces/TencentARC/PhotoMaker-Style" rel="nofollow"><img src="https://camo.githubusercontent.com/a9c16a13733e83b438c9815b57914899661a774ccf3f228c3b102040f770957a/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d44656d6f266d6573736167653d48756767696e676661636525323047726164696f26636f6c6f723d6f72616e6765" alt="Huggingface PhotoMaker 风格" data-canonical-src="https://img.shields.io/static/v1?label=Demo&amp;message=Huggingface%20Gradio&amp;color=orange" style="max-width: 100%;"></a></li>
+<li><a href="/TencentARC/PhotoMaker/blob/main/photomaker_style_demo.ipynb"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PhotoMaker 风格的笔记本演示</font></font></strong></a></li>
+</ul>
+<p align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/006a8ca73e82991c4104865517c818ec328357ef52bdce8818c4c29a31e819cd/68747470733a2f2f63646e2d75706c6f6164732e68756767696e67666163652e636f2f70726f64756374696f6e2f75706c6f6164732f3632383561393133336162363634323137393135383934342f64753838346c636a7071716a6e4a49787041544d322e6a706567"><img src="https://camo.githubusercontent.com/006a8ca73e82991c4104865517c818ec328357ef52bdce8818c4c29a31e819cd/68747470733a2f2f63646e2d75706c6f6164732e68756767696e67666163652e636f2f70726f64756374696f6e2f75706c6f6164732f3632383561393133336162363634323137393135383934342f64753838346c636a7071716a6e4a49787041544d322e6a706567" height="450" data-canonical-src="https://cdn-uploads.huggingface.co/production/uploads/6285a9133ab6642179158944/du884lcjpqqjnJIxpATM2.jpeg" style="max-width: 100%;"></a>
 </p>
-  
-<p align="center">
-  <img src="https://cdn-uploads.huggingface.co/production/uploads/6285a9133ab6642179158944/-AC7Hr5YL4yW1zXGe_Izl.jpeg" height=450>
+<p align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/732eb4730fbc489d1921d3b37f9b8d81a36a596ef2b23594bab4bcf16b93b7d1/68747470733a2f2f63646e2d75706c6f6164732e68756767696e67666163652e636f2f70726f64756374696f6e2f75706c6f6164732f3632383561393133336162363634323137393135383934342f2d414337487235594c347957317a5847655f497a6c2e6a706567"><img src="https://camo.githubusercontent.com/732eb4730fbc489d1921d3b37f9b8d81a36a596ef2b23594bab4bcf16b93b7d1/68747470733a2f2f63646e2d75706c6f6164732e68756767696e67666163652e636f2f70726f64756374696f6e2f75706c6f6164732f3632383561393133336162363634323137393135383934342f2d414337487235594c347957317a5847655f497a6c2e6a706567" height="450" data-canonical-src="https://cdn-uploads.huggingface.co/production/uploads/6285a9133ab6642179158944/-AC7Hr5YL4yW1zXGe_Izl.jpeg" style="max-width: 100%;"></a>
 </p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔧 依赖项和安装</font></font></h1><a id="user-content--dependencies-and-installation" class="anchor" aria-label="永久链接：🔧 依赖项和安装" href="#-dependencies-and-installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python &gt;= 3.8 (推荐使用</font></font><a href="https://www.anaconda.com/download/#linux" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Anaconda</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="https://docs.conda.io/en/latest/miniconda.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Miniconda</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></li>
+<li><a href="https://pytorch.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PyTorch &gt;= 2.0.0</font></font></a></li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>conda create --name photomaker python=3.10
+conda activate photomaker
+pip install -U pip
 
-# 🔧 Dependencies and Installation
+<span class="pl-c"><span class="pl-c">#</span> Install requirements</span>
+pip install -r requirements.txt
 
-- Python >= 3.8 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
-- [PyTorch >= 2.0.0](https://pytorch.org/)
-```bash
-conda create --name photomaker python=3.10
+<span class="pl-c"><span class="pl-c">#</span> Install photomaker</span>
+pip install git+https://github.com/TencentARC/PhotoMaker.git</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="conda create --name photomaker python=3.10
 conda activate photomaker
 pip install -U pip
 
@@ -90,31 +99,76 @@ pip install -U pip
 pip install -r requirements.txt
 
 # Install photomaker
-pip install git+https://github.com/TencentARC/PhotoMaker.git
-```
+pip install git+https://github.com/TencentARC/PhotoMaker.git" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后你可以运行以下命令来使用它</font></font></p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">from</span> <span class="pl-s1">photomaker</span> <span class="pl-k">import</span> <span class="pl-v">PhotoMakerStableDiffusionXLPipeline</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="from photomaker import PhotoMakerStableDiffusionXLPipeline" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⏬ 下载模型</font></font></h1><a id="user-content--download-models" class="anchor" aria-label="固定链接：⏬ 下载模型" href="#-download-models"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过以下两行代码，模型将自动下载：</font></font></p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">from</span> <span class="pl-s1">huggingface_hub</span> <span class="pl-k">import</span> <span class="pl-s1">hf_hub_download</span>
+<span class="pl-s1">photomaker_path</span> <span class="pl-c1">=</span> <span class="pl-en">hf_hub_download</span>(<span class="pl-s1">repo_id</span><span class="pl-c1">=</span><span class="pl-s">"TencentARC/PhotoMaker"</span>, <span class="pl-s1">filename</span><span class="pl-c1">=</span><span class="pl-s">"photomaker-v1.bin"</span>, <span class="pl-s1">repo_type</span><span class="pl-c1">=</span><span class="pl-s">"model"</span>)</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="from huggingface_hub import hf_hub_download
+photomaker_path = hf_hub_download(repo_id=&quot;TencentARC/PhotoMaker&quot;, filename=&quot;photomaker-v1.bin&quot;, repo_type=&quot;model&quot;)" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以选择从此</font></font><a href="https://huggingface.co/TencentARC/PhotoMaker" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网址</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">手动下载。</font></font></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💻 如何测试</font></font></h1><a id="user-content--how-to-test" class="anchor" aria-label="永久链接：💻 如何测试" href="#-how-to-test"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><a href="https://github.com/huggingface/diffusers"><font style="vertical-align: inherit;">像扩散器</font></a><font style="vertical-align: inherit;">一样使用</font></font><a href="https://github.com/huggingface/diffusers"><font style="vertical-align: inherit;"></font></a></h2><a id="user-content-use-like-diffusers" class="anchor" aria-label="永久链接：像扩散器一样使用" href="#use-like-diffusers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">依赖</font></font></li>
+</ul>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">import</span> <span class="pl-s1">torch</span>
+<span class="pl-k">import</span> <span class="pl-s1">os</span>
+<span class="pl-k">from</span> <span class="pl-s1">diffusers</span>.<span class="pl-s1">utils</span> <span class="pl-k">import</span> <span class="pl-s1">load_image</span>
+<span class="pl-k">from</span> <span class="pl-s1">diffusers</span> <span class="pl-k">import</span> <span class="pl-v">EulerDiscreteScheduler</span>
+<span class="pl-k">from</span> <span class="pl-s1">photomaker</span> <span class="pl-k">import</span> <span class="pl-v">PhotoMakerStableDiffusionXLPipeline</span>
 
-Then you can run the following command to use it
-```python
-from photomaker import PhotoMakerStableDiffusionXLPipeline
-```
+<span class="pl-c">### Load base model</span>
+<span class="pl-s1">pipe</span> <span class="pl-c1">=</span> <span class="pl-v">PhotoMakerStableDiffusionXLPipeline</span>.<span class="pl-en">from_pretrained</span>(
+    <span class="pl-s1">base_model_path</span>,  <span class="pl-c"># can change to any base model based on SDXL</span>
+    <span class="pl-s1">torch_dtype</span><span class="pl-c1">=</span><span class="pl-s1">torch</span>.<span class="pl-s1">bfloat16</span>, 
+    <span class="pl-s1">use_safetensors</span><span class="pl-c1">=</span><span class="pl-c1">True</span>, 
+    <span class="pl-s1">variant</span><span class="pl-c1">=</span><span class="pl-s">"fp16"</span>
+).<span class="pl-en">to</span>(<span class="pl-s1">device</span>)
 
-# ⏬ Download Models 
-The model will be automatically downloaded through the following two lines:
+<span class="pl-c">### Load PhotoMaker checkpoint</span>
+<span class="pl-s1">pipe</span>.<span class="pl-en">load_photomaker_adapter</span>(
+    <span class="pl-s1">os</span>.<span class="pl-s1">path</span>.<span class="pl-en">dirname</span>(<span class="pl-s1">photomaker_path</span>),
+    <span class="pl-s1">subfolder</span><span class="pl-c1">=</span><span class="pl-s">""</span>,
+    <span class="pl-s1">weight_name</span><span class="pl-c1">=</span><span class="pl-s1">os</span>.<span class="pl-s1">path</span>.<span class="pl-en">basename</span>(<span class="pl-s1">photomaker_path</span>),
+    <span class="pl-s1">trigger_word</span><span class="pl-c1">=</span><span class="pl-s">"img"</span>  <span class="pl-c"># define the trigger word</span>
+)     
 
-```python
-from huggingface_hub import hf_hub_download
-photomaker_path = hf_hub_download(repo_id="TencentARC/PhotoMaker", filename="photomaker-v1.bin", repo_type="model")
-```
+<span class="pl-s1">pipe</span>.<span class="pl-s1">scheduler</span> <span class="pl-c1">=</span> <span class="pl-v">EulerDiscreteScheduler</span>.<span class="pl-en">from_config</span>(<span class="pl-s1">pipe</span>.<span class="pl-s1">scheduler</span>.<span class="pl-s1">config</span>)
 
-You can also choose to download manually from this [url](https://huggingface.co/TencentARC/PhotoMaker).
+<span class="pl-c">### Also can cooperate with other LoRA modules</span>
+<span class="pl-c"># pipe.load_lora_weights(os.path.dirname(lora_path), weight_name=lora_model_name, adapter_name="xl_more_art-full")</span>
+<span class="pl-c"># pipe.set_adapters(["photomaker", "xl_more_art-full"], adapter_weights=[1.0, 0.5])</span>
 
-# 💻 How to Test
-
-## Use like [diffusers](https://github.com/huggingface/diffusers)
-
-- Dependency
-```py
-import torch
+<span class="pl-s1">pipe</span>.<span class="pl-en">fuse_lora</span>()</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="import torch
 import os
 from diffusers.utils import load_image
 from diffusers import EulerDiscreteScheduler
@@ -125,48 +179,82 @@ pipe = PhotoMakerStableDiffusionXLPipeline.from_pretrained(
     base_model_path,  # can change to any base model based on SDXL
     torch_dtype=torch.bfloat16, 
     use_safetensors=True, 
-    variant="fp16"
+    variant=&quot;fp16&quot;
 ).to(device)
 
 ### Load PhotoMaker checkpoint
 pipe.load_photomaker_adapter(
     os.path.dirname(photomaker_path),
-    subfolder="",
+    subfolder=&quot;&quot;,
     weight_name=os.path.basename(photomaker_path),
-    trigger_word="img"  # define the trigger word
+    trigger_word=&quot;img&quot;  # define the trigger word
 )     
 
 pipe.scheduler = EulerDiscreteScheduler.from_config(pipe.scheduler.config)
 
 ### Also can cooperate with other LoRA modules
-# pipe.load_lora_weights(os.path.dirname(lora_path), weight_name=lora_model_name, adapter_name="xl_more_art-full")
-# pipe.set_adapters(["photomaker", "xl_more_art-full"], adapter_weights=[1.0, 0.5])
+# pipe.load_lora_weights(os.path.dirname(lora_path), weight_name=lora_model_name, adapter_name=&quot;xl_more_art-full&quot;)
+# pipe.set_adapters([&quot;photomaker&quot;, &quot;xl_more_art-full&quot;], adapter_weights=[1.0, 0.5])
 
-pipe.fuse_lora()
-```
+pipe.fuse_lora()" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">输入身份证图片</font></font></li>
+</ul>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c">### define the input ID images</span>
+<span class="pl-s1">input_folder_name</span> <span class="pl-c1">=</span> <span class="pl-s">'./examples/newton_man'</span>
+<span class="pl-s1">image_basename_list</span> <span class="pl-c1">=</span> <span class="pl-s1">os</span>.<span class="pl-en">listdir</span>(<span class="pl-s1">input_folder_name</span>)
+<span class="pl-s1">image_path_list</span> <span class="pl-c1">=</span> <span class="pl-en">sorted</span>([<span class="pl-s1">os</span>.<span class="pl-s1">path</span>.<span class="pl-en">join</span>(<span class="pl-s1">input_folder_name</span>, <span class="pl-s1">basename</span>) <span class="pl-k">for</span> <span class="pl-s1">basename</span> <span class="pl-c1">in</span> <span class="pl-s1">image_basename_list</span>])
 
-- Input ID Images
-```py
-### define the input ID images
+<span class="pl-s1">input_id_images</span> <span class="pl-c1">=</span> []
+<span class="pl-k">for</span> <span class="pl-s1">image_path</span> <span class="pl-c1">in</span> <span class="pl-s1">image_path_list</span>:
+    <span class="pl-s1">input_id_images</span>.<span class="pl-en">append</span>(<span class="pl-en">load_image</span>(<span class="pl-s1">image_path</span>))</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="### define the input ID images
 input_folder_name = './examples/newton_man'
 image_basename_list = os.listdir(input_folder_name)
 image_path_list = sorted([os.path.join(input_folder_name, basename) for basename in image_basename_list])
 
 input_id_images = []
 for image_path in image_path_list:
-    input_id_images.append(load_image(image_path))
-```
-
-<div align="center">
-
-<a href="https://github.com/TencentARC/PhotoMaker/assets/21050959/01d53dfa-7528-4f09-a1a5-96b349ae7800" align="center"><img style="margin:0;padding:0;" src="https://github.com/TencentARC/PhotoMaker/assets/21050959/01d53dfa-7528-4f09-a1a5-96b349ae7800"/></a>
+    input_id_images.append(load_image(image_path))" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div align="center" dir="auto">
+<p dir="auto"><a href="https://github.com/TencentARC/PhotoMaker/assets/21050959/01d53dfa-7528-4f09-a1a5-96b349ae7800" align="center"><img src="https://private-user-images.githubusercontent.com/21050959/296608119-01d53dfa-7528-4f09-a1a5-96b349ae7800.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA3MTE3MjYsIm5iZiI6MTcyMDcxMTQyNiwicGF0aCI6Ii8yMTA1MDk1OS8yOTY2MDgxMTktMDFkNTNkZmEtNzUyOC00ZjA5LWExYTUtOTZiMzQ5YWU3ODAwLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzExVDE1MjM0NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdhNjU2N2U0YzVkNTdkNTcxNGQzNDc3NjIwNmI4NjQzMjUyYTY4YjgzOTk3MWY0OGIzZmEyZWUwNTM0ODI1NGQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.uo654wnw97a8MErwRlhaAeGgJ5VbBGmj8U4qUHLVsDc" secured-asset-link="" style="max-width: 100%;"></a></p>
 </div>
-
-- Generation
-```py
-# Note that the trigger word `img` must follow the class word for personalization
-prompt = "a half-body portrait of a man img wearing the sunglasses in Iron man suit, best quality"
-negative_prompt = "(asymmetry, worst quality, low quality, illustration, 3d, 2d, painting, cartoons, sketch), open mouth, grayscale"
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一代</font></font></li>
+</ul>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c"># Note that the trigger word `img` must follow the class word for personalization</span>
+<span class="pl-s1">prompt</span> <span class="pl-c1">=</span> <span class="pl-s">"a half-body portrait of a man img wearing the sunglasses in Iron man suit, best quality"</span>
+<span class="pl-s1">negative_prompt</span> <span class="pl-c1">=</span> <span class="pl-s">"(asymmetry, worst quality, low quality, illustration, 3d, 2d, painting, cartoons, sketch), open mouth, grayscale"</span>
+<span class="pl-s1">generator</span> <span class="pl-c1">=</span> <span class="pl-s1">torch</span>.<span class="pl-v">Generator</span>(<span class="pl-s1">device</span><span class="pl-c1">=</span><span class="pl-s1">device</span>).<span class="pl-en">manual_seed</span>(<span class="pl-c1">42</span>)
+<span class="pl-s1">images</span> <span class="pl-c1">=</span> <span class="pl-en">pipe</span>(
+    <span class="pl-s1">prompt</span><span class="pl-c1">=</span><span class="pl-s1">prompt</span>,
+    <span class="pl-s1">input_id_images</span><span class="pl-c1">=</span><span class="pl-s1">input_id_images</span>,
+    <span class="pl-s1">negative_prompt</span><span class="pl-c1">=</span><span class="pl-s1">negative_prompt</span>,
+    <span class="pl-s1">num_images_per_prompt</span><span class="pl-c1">=</span><span class="pl-c1">1</span>,
+    <span class="pl-s1">num_inference_steps</span><span class="pl-c1">=</span><span class="pl-s1">num_steps</span>,
+    <span class="pl-s1">start_merge_step</span><span class="pl-c1">=</span><span class="pl-c1">10</span>,
+    <span class="pl-s1">generator</span><span class="pl-c1">=</span><span class="pl-s1">generator</span>,
+).<span class="pl-s1">images</span>[<span class="pl-c1">0</span>]
+<span class="pl-s1">gen_images</span>.<span class="pl-en">save</span>(<span class="pl-s">'out_photomaker.png'</span>)</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# Note that the trigger word `img` must follow the class word for personalization
+prompt = &quot;a half-body portrait of a man img wearing the sunglasses in Iron man suit, best quality&quot;
+negative_prompt = &quot;(asymmetry, worst quality, low quality, illustration, 3d, 2d, painting, cartoons, sketch), open mouth, grayscale&quot;
 generator = torch.Generator(device=device).manual_seed(42)
 images = pipe(
     prompt=prompt,
@@ -177,82 +265,106 @@ images = pipe(
     start_merge_step=10,
     generator=generator,
 ).images[0]
-gen_images.save('out_photomaker.png')
-```
-
-<div align="center">
-
-<a href="https://github.com/TencentARC/PhotoMaker/assets/21050959/703c00e1-5e50-4c19-899e-25ee682d2c06" align="center"><img width=400 style="margin:0;padding:0;" src="https://github.com/TencentARC/PhotoMaker/assets/21050959/703c00e1-5e50-4c19-899e-25ee682d2c06"/></a>
-
+gen_images.save('out_photomaker.png')" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div align="center" dir="auto">
+<p dir="auto"><a href="https://github.com/TencentARC/PhotoMaker/assets/21050959/703c00e1-5e50-4c19-899e-25ee682d2c06" align="center"><img width="400" src="https://private-user-images.githubusercontent.com/21050959/296608141-703c00e1-5e50-4c19-899e-25ee682d2c06.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA3MTE3MjYsIm5iZiI6MTcyMDcxMTQyNiwicGF0aCI6Ii8yMTA1MDk1OS8yOTY2MDgxNDEtNzAzYzAwZTEtNWU1MC00YzE5LTg5OWUtMjVlZTY4MmQyYzA2LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzExVDE1MjM0NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY4MjY3OWRjNGI4YTZkMzg1ODBmNjM4NjYzZWVjYTRjZjAyNjhlODhkNDZmMDJkZDllNzY2NmM3MGE5YTljODkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.294QkO3VJM0SZ8_Ws6mogoXgoHZVuuL7-zkcLj4SNhU" secured-asset-link="" style="max-width: 100%;"></a></p>
 </div>
-
-## Start a local gradio demo
-Run the following command:
-
-```python
-python gradio_demo/app.py
-```
-
-You could customize this script in [this file](gradio_demo/app.py).
-
-If you want to run it on MAC, you should follow [this Instruction](MacGPUEnv.md) and then run the app.py.
-
-## Usage Tips:
-- Upload more photos of the person to be customized to improve ID fidelity. If the input is Asian face(s), maybe consider adding 'Asian' before the class word, e.g., `Asian woman img`
-- When stylizing, does the generated face look too realistic? Adjust the Style strength to 30-50, the larger the number, the less ID fidelity, but the stylization ability will be better. You could also try out other base models or LoRAs with good stylization effects.
-- Reduce the number of generated images and sampling steps for faster speed. However, please keep in mind that reducing the sampling steps may compromise the ID fidelity.
-
-# Related Resources
-### Replicate demo of PhotoMaker: 
-1. [Demo link](https://replicate.com/jd7h/photomaker), run PhotoMaker on replicate, provided by [@yorickvP](https://github.com/yorickvP) and [@jd7h](https://github.com/jd7h).
-2. [Demo link (style version)](https://replicate.com/yorickvp/photomaker-style).
-
-### WebUI version of PhotoMaker: 
-1. **stable-diffusion-webui-forge**: https://github.com/lllyasviel/stable-diffusion-webui-forge provided by [@Lvmin Zhang](https://github.com/lllyasviel)
-2. **Fooocus App**: [Fooocus-inswapper](https://github.com/machineminded/Fooocus-inswapper) provided by [@machineminded](https://github.com/machineminded)
-
-### Windows version of PhotoMaker: 
-1. [bmaltais/PhotoMaker](https://github.com/bmaltais/PhotoMaker/tree/v1.0.1) by [@bmaltais](https://github.com/bmaltais), easy to deploy PhotoMaker on Windows. The description can be found in [this link](https://github.com/TencentARC/PhotoMaker/discussions/36#discussioncomment-8156199).
-2. [sdbds/PhotoMaker-for-windows](https://github.com/sdbds/PhotoMaker-for-windows/tree/windows) by [@sdbds](https://github.com/sdbds).
-   
-### ComfyUI:
-1. 🔥 **Official Implementation by [ComfyUI](https://github.com/comfyanonymous/ComfyUI)**: https://github.com/comfyanonymous/ComfyUI/commit/d1533d9c0f1dde192f738ef1b745b15f49f41e02
-2. https://github.com/ZHO-ZHO-ZHO/ComfyUI-PhotoMaker
-3. https://github.com/StartHua/Comfyui-Mine-PhotoMaker
-4. https://github.com/shiimizu/ComfyUI-PhotoMaker
-
-### Purely C/C++/CUDA version of PhotoMaker:
-1. [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp/pull/179) by [@bssrdf](https://github.com/bssrdf).
-
-### Other Applications / Web Demos
-1. **Wisemodel 始智 (Easy to use in China)** https://wisemodel.cn/space/gradio/photomaker 
-2. **OpenXLab (Easy to use in China)**: https://openxlab.org.cn/apps/detail/camenduru/PhotoMaker
- [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/camenduru/PhotoMaker)
-by [@camenduru](https://github.com/camenduru).
-3. **Colab**: https://github.com/camenduru/PhotoMaker-colab by [@camenduru](https://github.com/camenduru)
-4. **Monster API**: https://monsterapi.ai/playground?model=photo-maker
-5. **Pinokio**: https://pinokio.computer/item?uri=https://github.com/cocktailpeanutlabs/photomaker
-
-### Graido demo in 45 lines
-Provided by [@Gradio](https://twitter.com/Gradio/status/1747683500495691942)
-
-
-# 🤗 Acknowledgements
-- PhotoMaker is co-hosted by Tencent ARC Lab and Nankai University [MCG-NKU](https://mmcheng.net/cmm/).
-- Inspired from many excellent demos and repos, including [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter), [multimodalart/Ip-Adapter-FaceID](https://huggingface.co/spaces/multimodalart/Ip-Adapter-FaceID), [FastComposer](https://github.com/mit-han-lab/fastcomposer), and [T2I-Adapter](https://github.com/TencentARC/T2I-Adapter). Thanks for their great work!
-- Thanks to the Venus team in Tencent PCG for their feedback and suggestions.
-- Thanks to the HuggingFace team for their generous support! 
-
-# Disclaimer
-This project strives to impact the domain of AI-driven image generation positively. Users are granted the freedom to create images using this tool, but they are expected to comply with local laws and utilize it responsibly. The developers do not assume any responsibility for potential misuse by users.
-
-# BibTeX
-If you find PhotoMaker useful for your research and applications, please cite using this BibTeX:
-
-```BibTeX
-@inproceedings{li2023photomaker,
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开始本地 Gradio 演示</font></font></h2><a id="user-content-start-a-local-gradio-demo" class="anchor" aria-label="永久链接：开始本地 gradio 演示" href="#start-a-local-gradio-demo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行以下命令：</font></font></p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-s1">python</span> <span class="pl-s1">gradio_demo</span><span class="pl-c1">/</span><span class="pl-s1">app</span>.<span class="pl-s1">py</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="python gradio_demo/app.py" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在</font></font><a href="/TencentARC/PhotoMaker/blob/main/gradio_demo/app.py"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此文件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中自定义该脚本。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想在 MAC 上运行它，您应该按照</font></font><a href="/TencentARC/PhotoMaker/blob/main/MacGPUEnv.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此说明操作</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，然后运行 &ZeroWidthSpace;&ZeroWidthSpace;app.py。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用提示：</font></font></h2><a id="user-content-usage-tips" class="anchor" aria-label="固定链接：使用提示：" href="#usage-tips"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上传更多需要定制的人的照片以提高 ID 保真度。如果输入的是亚洲人脸，可以考虑在类别词前添加“亚洲人”，例如，</font></font><code>Asian woman img</code></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在风格化时，生成的脸部看起来是否过于逼真？将风格强度调整为 30-50，数字越大，ID 保真度越低，但风格化能力会更好。您也可以尝试其他具有良好风格化效果的基础模型或 LoRA。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">减少生成的图像数量和采样步骤可提高速度。但是，请记住，减少采样步骤可能会损害 ID 保真度。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相关资源</font></font></h1><a id="user-content-related-resources" class="anchor" aria-label="永久链接：相关资源" href="#related-resources"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PhotoMaker 的复制演示：</font></font></h3><a id="user-content-replicate-demo-of-photomaker" class="anchor" aria-label="永久链接：复制 PhotoMaker 的演示：" href="#replicate-demo-of-photomaker"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><a href="https://replicate.com/jd7h/photomaker" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示链接，在复制上运行 PhotoMaker，由</font></font></a><font style="vertical-align: inherit;"></font><a href="https://github.com/yorickvP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@yorickvP</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://github.com/jd7h"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@jd7h</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供</font><font style="vertical-align: inherit;">。</font></font></li>
+<li><a href="https://replicate.com/yorickvp/photomaker-style" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示链接（风格版本）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+</ol>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PhotoMaker 的 WebUI 版本：</font></font></h3><a id="user-content-webui-version-of-photomaker" class="anchor" aria-label="永久链接：PhotoMaker 的 WebUI 版本：" href="#webui-version-of-photomaker"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">stable-diffusion-webui-forge</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : </font></font><a href="https://github.com/lllyasviel/stable-diffusion-webui-forge"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/lllyasviel/stable-diffusion-webui-forge</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由</font></font><a href="https://github.com/lllyasviel"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@Lvmin Zhang提供</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fooocus 应用程序</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><a href="https://github.com/machineminded/Fooocus-inswapper"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fooocus-inswapper由</font></font></a><font style="vertical-align: inherit;"><a href="https://github.com/machineminded"><font style="vertical-align: inherit;">@machineminded</font></a><font style="vertical-align: inherit;">提供</font></font><a href="https://github.com/machineminded"><font style="vertical-align: inherit;"></font></a></li>
+</ol>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows 版本的 PhotoMaker：</font></font></h3><a id="user-content-windows-version-of-photomaker" class="anchor" aria-label="永久链接：PhotoMaker 的 Windows 版本：" href="#windows-version-of-photomaker"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><a href="https://github.com/bmaltais/PhotoMaker/tree/v1.0.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bmaltais/PhotoMaker</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> by </font></font><a href="https://github.com/bmaltais"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@bmaltais</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，可轻松在 Windows 上部署 PhotoMaker。说明可在</font></font><a href="https://github.com/TencentARC/PhotoMaker/discussions/36#discussioncomment-8156199" data-hovercard-type="discussion" data-hovercard-url="/TencentARC/PhotoMaker/discussions/36/hovercard?comment_id=8156199"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此链接</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中找到。</font></font></li>
+<li><a href="https://github.com/sdbds/PhotoMaker-for-windows/tree/windows"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sdbds/PhotoMaker-for-windows</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由</font></font><a href="https://github.com/sdbds"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@sdbds</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供。</font></font></li>
+</ol>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">舒适的用户界面：</font></font></h3><a id="user-content-comfyui" class="anchor" aria-label="固定链接：ComfyUI：" href="#comfyui"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔥 </font><strong><a href="https://github.com/comfyanonymous/ComfyUI"><font style="vertical-align: inherit;">ComfyUI</font></a></strong></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方实现</font></font><a href="https://github.com/comfyanonymous/ComfyUI"><font style="vertical-align: inherit;"></font></a></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><a href="https://github.com/comfyanonymous/ComfyUI/commit/d1533d9c0f1dde192f738ef1b745b15f49f41e02"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/comfyanonymous/ComfyUI/commit/d1533d9c0f1dde192f738ef1b745b15f49f41e02</font></font></a></li>
+<li><a href="https://github.com/ZHO-ZHO-ZHO/ComfyUI-PhotoMaker"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/ZHO-ZHO-ZHO/ComfyUI-PhotoMaker</font></font></a></li>
+<li><a href="https://github.com/StartHua/Comfyui-Mine-PhotoMaker"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/StartHua/Comfyui-Mine-PhotoMaker</font></font></a></li>
+<li><a href="https://github.com/shiimizu/ComfyUI-PhotoMaker"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/shiimizu/ComfyUI-PhotoMaker</font></font></a></li>
+</ol>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纯 C/C++/CUDA 版本的 PhotoMaker：</font></font></h3><a id="user-content-purely-cccuda-version-of-photomaker" class="anchor" aria-label="永久链接：纯 C/C++/CUDA 版本的 PhotoMaker：" href="#purely-cccuda-version-of-photomaker"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><a href="https://github.com/leejet/stable-diffusion.cpp/pull/179" data-hovercard-type="pull_request" data-hovercard-url="/leejet/stable-diffusion.cpp/pull/179/hovercard"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由</font></font><a href="https://github.com/bssrdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@bssrdf编写的</font></font></a><font style="vertical-align: inherit;"><a href="https://github.com/leejet/stable-diffusion.cpp/pull/179" data-hovercard-type="pull_request" data-hovercard-url="/leejet/stable-diffusion.cpp/pull/179/hovercard"><font style="vertical-align: inherit;">stable-diffusion.cpp</font></a><font style="vertical-align: inherit;">。</font></font></li>
+</ol>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他应用程序/网络演示</font></font></h3><a id="user-content-other-applications--web-demos" class="anchor" aria-label="永久链接：其他应用程序/网络演示" href="#other-applications--web-demos"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Wisemodel 始智 (中国使用方便) </font></font></strong> <a href="https://wisemodel.cn/space/gradio/photomaker" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://wisemodel.cn/space/gradio/photomaker</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenXLab（中国地区易用）</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><a href="https://openxlab.org.cn/apps/detail/camenduru/PhotoMaker" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://openxlab.org.cn/apps/detail/camenduru/PhotoMaker</font></font></a>
+<a href="https://openxlab.org.cn/apps/detail/camenduru/PhotoMaker" rel="nofollow"><img src="https://camo.githubusercontent.com/d78f1ebc38909a3d46852a2fa9925ad7a6f106e5b11bf06450b9af1cdf845cf0/68747470733a2f2f63646e2d7374617469632e6f70656e786c61622e6f72672e636e2f6170702d63656e7465722f6f70656e786c61625f6170702e737667" alt="在 OpenXLab 中打开" data-canonical-src="https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg" style="max-width: 100%;"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
+by </font></font><a href="https://github.com/camenduru"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@camenduru</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Colab</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><a href="https://github.com/camenduru/PhotoMaker-colab"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/camenduru/PhotoMaker-colab</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由</font></font><a href="https://github.com/camenduru"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@camenduru提供</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">怪物 API</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><a href="https://monsterapi.ai/playground?model=photo-maker" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://monsterapi.ai/playground?model =photo-maker</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pinokio</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><a href="https://pinokio.computer/item?uri=https://github.com/cocktailpeanutlabs/photomaker" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://pinokio.computer/item? uri=https://github.com/cocktailpeanutlabs/photomaker</font></font></a></li>
+</ol>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">45 行 Graido 演示</font></font></h3><a id="user-content-graido-demo-in-45-lines" class="anchor" aria-label="永久链接：45 行 Graido 演示" href="#graido-demo-in-45-lines"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由</font></font><a href="https://twitter.com/Gradio/status/1747683500495691942" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@Gradio提供</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤗 致谢</font></font></h1><a id="user-content--acknowledgements" class="anchor" aria-label="永久链接：🤗 致谢" href="#-acknowledgements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"></font><a href="https://mmcheng.net/cmm/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PhotoMaker 由腾讯 ARC Lab 和南开大学MCG-NKU</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联合主办</font><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">受到许多优秀演示和 repos 的启发，包括</font></font><a href="https://github.com/tencent-ailab/IP-Adapter"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IP-Adapter</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://huggingface.co/spaces/multimodalart/Ip-Adapter-FaceID" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">multimodalart/Ip-Adapter-FaceID</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://github.com/mit-han-lab/fastcomposer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FastComposer</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://github.com/TencentARC/T2I-Adapter"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T2I-Adapter</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。感谢他们的出色工作！</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢腾讯盈科集团启明星辰团队的反馈和建议。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢 HuggingFace 团队的慷慨支持！</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免责声明</font></font></h1><a id="user-content-disclaimer" class="anchor" aria-label="永久链接：免责声明" href="#disclaimer"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目致力于对人工智能驱动的图像生成领域产生积极影响。用户可以自由使用此工具创建图像，但应遵守当地法律并负责任地使用它。开发人员对用户的潜在滥用不承担任何责任。</font></font></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BibTeX</font></font></h1><a id="user-content-bibtex" class="anchor" aria-label="固定链接：BibTeX" href="#bibtex"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您发现 PhotoMaker 对您的研究和应用有用，请使用此 BibTeX 引用：</font></font></p>
+<div class="highlight highlight-text-bibtex notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">@inproceedings</span>{<span class="pl-en">li2023photomaker</span>,
+  <span class="pl-s">title</span>=<span class="pl-s"><span class="pl-pds">{</span>PhotoMaker: Customizing Realistic Human Photos via Stacked ID Embedding<span class="pl-pds">}</span></span>,
+  <span class="pl-s">author</span>=<span class="pl-s"><span class="pl-pds">{</span>Li, Zhen and Cao, Mingdeng and Wang, Xintao and Qi, Zhongang and Cheng, Ming-Ming and Shan, Ying<span class="pl-pds">}</span></span>,
+  <span class="pl-s">booktitle</span>=<span class="pl-s"><span class="pl-pds">{</span>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)<span class="pl-pds">}</span></span>,
+  <span class="pl-s">year</span>=<span class="pl-s"><span class="pl-pds">{</span>2024<span class="pl-pds">}</span></span>
+}</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="@inproceedings{li2023photomaker,
   title={PhotoMaker: Customizing Realistic Human Photos via Stacked ID Embedding},
   author={Li, Zhen and Cao, Mingdeng and Wang, Xintao and Qi, Zhongang and Cheng, Ming-Ming and Shan, Ying},
   booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2024}
-}
+}" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+</article></div>
